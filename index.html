@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Bonsai World Smith</title>
+    <title>Unity WebGL Player | Bonsai World Forge</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Bonsai World Smith</div>
+        <div id="unity-build-title">Bonsai World Forge</div>
       </div>
     </div>
     <script>
@@ -56,15 +56,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BWS-WebGL.loader.js";
+      var loaderUrl = buildUrl + "/BWF-WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BWS-WebGL.data.unityweb",
-        frameworkUrl: buildUrl + "/BWS-WebGL.framework.js.unityweb",
-        codeUrl: buildUrl + "/BWS-WebGL.wasm.unityweb",
+        dataUrl: buildUrl + "/BWF-WebGL.data.unityweb",
+        frameworkUrl: buildUrl + "/BWF-WebGL.framework.js.unityweb",
+        codeUrl: buildUrl + "/BWF-WebGL.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Patrick Pilarski",
-        productName: "Bonsai World Smith",
-        productVersion: "0.1",
+        productName: "Bonsai World Forge",
+        productVersion: "0.2",
         showBanner: unityShowBanner,
       };
 
@@ -85,7 +85,7 @@
         canvas.style.width = "800px";
         canvas.style.height = "500px";
       }
-      canvas.style.background = "url('" + buildUrl + "/BWS-WebGL.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/BWF-WebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
