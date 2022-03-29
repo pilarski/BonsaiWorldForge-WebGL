@@ -1,6 +1,6 @@
-# BonsaiWorldSmith-WebGL
+# BonsaiWorldForge-WebGL
 ### Pre-Alpha Demo
-WebGL playable version of Bonsai World Smith: a flexible world-building game for human-agent machine intelligence research.
+WebGL playable version of Bonsai World Forge: a flexible world-building game for human-agent machine intelligence research.
 
 "A fresh new game for one player where you harness the power of an ancient artifact to smith worlds in miniature out of base materials... only to see your handiwork play out over entire continents as they spring to life. In short play sessions with new, procedurally generated terrains, you will use an increasingly diverse range of tools to shape the world into whatever you want it to be: arid desert, lush forests, or rolling plains. Your artifact learns with you. As you play, and overcome the challenges of the worlds you create, you will also gain valuable resources needed to unlock the full potential of your intelligent world-sculpting tool."
 
